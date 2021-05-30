@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://${mongo-host:localhost}:${mongo-port:27017}/${mongo-database:customerDB}
+      # uri: mongodb://${mongo-user}:${mongo-pass}@${mongo-host:localhost}:${mongo-port:27017}/${mongo-database:customerDB}
+pagination:
+  max-limit: 1000
