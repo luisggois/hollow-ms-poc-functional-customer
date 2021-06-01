@@ -3,8 +3,6 @@ package com.hollow.microservices.customer.core.test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class CalculatorTest {
 
     @Test
