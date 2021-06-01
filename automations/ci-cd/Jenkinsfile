@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Sonarqube analysis'){
             steps{
-                withSonarQubeEnv('Sonarqube') {
+                withSonarQubeEnv(credentialsId: '4eb94e2a-bb99-4ae3-95f5-70cfb0f9811c', installationName: 'Sonarqube') {
                     withMaven(maven: 'maven-3.8.1', mavenSettingsConfig: '3e228a06-8997-47e3-b334-e1b6448398cd'){
                         sh 'mvn sonar:sonar'
                     }
