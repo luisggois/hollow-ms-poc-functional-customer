@@ -50,6 +50,14 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <!-- only way to make maven search for snapshot in nexus, if it does not exist in local -->
+            <id>fake-id</id>
+            <url>www.fakeurl.com</url>
+        </repository>
+    </repositories>
+
     <modules>
         <module>customer-adapter-inboud-rest</module>
         <module>customer-application</module>

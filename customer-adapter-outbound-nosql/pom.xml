@@ -21,10 +21,7 @@
         <dependency>
             <groupId>com.hollow.microservices.customer</groupId>
             <artifactId>customer-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.hollow.microservices.customer</groupId>
-            <artifactId>customer-core</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

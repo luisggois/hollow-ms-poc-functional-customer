@@ -17,14 +17,20 @@
         <dependency>
             <groupId>com.hollow.microservices.customer</groupId>
             <artifactId>customer-adapter-inboud-rest</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+
         </dependency>
         <dependency>
             <groupId>com.hollow.microservices.customer</groupId>
             <artifactId>customer-adapter-outbound-nosql</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+
         </dependency>
         <dependency>
             <groupId>com.hollow.microservices.customer</groupId>
             <artifactId>customer-core</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+
         </dependency>
     </dependencies>
 
